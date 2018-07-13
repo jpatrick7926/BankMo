@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Search from './components/search.jsx';
+import Search from './components/Search.jsx';
+import Feed from './components/Feed.jsx';
+import FriendsList from './components/FriendsList.jsx'
+
 
 class App extends React.Component {
   constructor(props) {
@@ -15,6 +18,8 @@ class App extends React.Component {
     return(<div>
       <h1>BankMo</h1>
       <Search />
+      <Feed />
+      <FriendsList />
     </div>)
   }
 }
